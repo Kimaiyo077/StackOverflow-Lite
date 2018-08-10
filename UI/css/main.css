@@ -13,3 +13,56 @@ header{
     min-height: 90px;
     border-bottom: orange 3px solid; 
 }
+
+/* end of global theme*/
+
+/* header theme */
+.header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline-flex;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+header #heading{
+    float: left;
+}
+
+header #heading h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: orange;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#search-bar{
+    float: right;
+    margin-bottom: 5px;
+}
+
+/** end of header theme**/
