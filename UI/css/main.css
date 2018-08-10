@@ -1,0 +1,15 @@
+/* Global Themes */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 90px;
+    border-bottom: orange 3px solid; 
+}
