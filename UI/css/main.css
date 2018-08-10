@@ -66,3 +66,75 @@ header a:hover{
 }
 
 /** end of header theme**/
+
+/** beginning of body styling**/
+.btn{
+    border-radius: 10% 10% 10% 10%;
+    background: red;
+    color: white; 
+}
+
+.btn:hover{
+    background: white;
+    color: red;
+}
+
+.content{
+    margin-left: 1opx;
+}
+
+section{
+    padding-left: 2em;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 2em;
+    border-top: #35424a 1px solid;
+}
+
+section a{
+    padding: 3px;
+    color: white;
+    background: #35424a;
+    text-decoration: none;
+    font-size: 16px;
+    border: orange 1px solid;
+    box-shadow: 1px 1px 1px darkgray;
+}
+
+section button.vote{
+    margin-left: 3px;
+    float: right;
+    color: white;
+    background: orange;
+}
+
+section button:hover{
+    color: orange;
+    background: white;
+}
+
+section a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
+
+section div.subject{
+    padding: 5px;
+}
+
+textarea{
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+/** end of body styling**/
