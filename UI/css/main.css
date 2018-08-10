@@ -138,3 +138,40 @@ input{
 }
 
 /** end of body styling**/
+
+/** beginning of footer styling**/
+footer{
+    margin-top: 0;
+    display: block;
+    padding: 20px;
+    color: white;
+    background: orange;
+}
+
+/** end of footer styling**/
+
+
+/** other styling**/
+
+button.delete{
+    float: right;
+}
+
+a.view{
+    background-color: lightgray;
+    text-decoration: none;
+    border: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user{
+    font-size: 2em;
+}
